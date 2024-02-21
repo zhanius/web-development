@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+/* hover */
+li:hover {
+  text-decoration: underline black 2px;
+}
+/* header */
+.head {
+  font-size: 13px;
+  display: flex;
+  width: 100vw;
+  height: 60px;
+}
+
+.left {
+  width: 50vw;
+  padding: 0px 35px;
+  .logo {
+    width: 110px;
+  }
+  ul li {
+    cursor: pointer;
+    margin: 0 10px;
+    list-style-type: none;
+    display: inline-block;
+  }
+}
+
+.right {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+  .search {
+    width: 20px;
+  }
+  .login {
+    width: 30px;
+    height: 30px;
+  }
+  ul li {
+    cursor: pointer;
+    margin: 0 10px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  select {
+    border-color: transparent;
+    color: #737373;
+  }
+}
+
+/* slider */
+.slider {
+  display: flex;
+  margin-left: 7px;
+  width: 1510px;
+  height: 470px;
+  .slide {
+    width: 1510px;
+  }
+  position: relative;
+}
+
+.top-div {
+  font-family: inherit;
+  line-height: 1.5;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  width: 460px;
+  height: 300px;
+  position: absolute;
+  top: 90px;
+  left: 130px;
+  .par-title {
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+
+.blue-button {
+  font-weight: 550;
+  border: 1px solid #0067b8;
+  background-color: #0067b8;
+  color: white;
+  border-radius: 2px;
+  padding: 8px;
+  font-size: 17px;
+}
+
+/* slider buttons */
+.slider-buttons {
+  ul li {
+    list-style-type: none;
+  }
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  .fr-circle {
+    position: relative;
+    width: 20px;
+  }
+  .triangle {
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    top: 552px;
+    left: 682px;
+    transform: rotate(270deg);
+  }
+  .fr-arrow {
+    transform: rotate(180deg);
+    width: 14px;
+  }
+  .black-circle {
+    width: 12px;
+  }
+  .sec-circle {
+    width: 12px;
+  }
+  .sec-arrow {
+    width: 14px;
+  }
+}
+
+.buttons li {
+  margin: 15px 14px;
+  display: inline;
+  justify-content: center;
+}
+.buttons {
+  padding-right: 20px;
+}
+
+.low {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.low .first .image,
+.low .second .image,
+.low .third .image,
+.low .fourth .image {
+  width: 330px;
+}
+
+.first p .blue-arrow,
+.second p .blue-arrow,
+.third p .blue-arrow,
+.fourth p .blue-arrow {
+    width: 14px;
+  }
+
+
+.first,
+.second,
+.third,
+.fourth {
+  margin: 0 20px;
+}
+
+.all {
+  display: flex;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+span:hover {
+  text-decoration: underline;
+}
+
+span {
+  color: #1369ab;
+  font-weight: 500;
+}
+
+.first p,
+.second p,
+.third p,
+.fourth p {
+  width: 330px;
+}
+
+

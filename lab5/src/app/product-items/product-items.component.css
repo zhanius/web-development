@@ -1,0 +1,58 @@
+.container {
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  margin: 0 30px 40px 50px;
+}
+
+.product-card {
+  width: 160px;
+  height: auto;
+  padding: 8px 30px;
+  border: 1px solid rgb(177, 176, 176);
+  margin: 10px;
+}
+
+img {
+  width: 70px;
+  padding-left: 45px;
+}
+
+.cross {
+  float: right;
+  background: transparent;
+  border: transparent;
+}
+
+.cross:hover {
+  background-color: rgb(251, 210, 156);
+  border: solid antiquewhite;
+  border-radius: 5px;
+}
+
+.low {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: rgb(200, 198, 198);
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+.heart-filled {
+  color: red;
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+}
+
+

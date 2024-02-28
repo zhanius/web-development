@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="product-items.component.css" />
+
+<div class="container">
+  <div class="product-card" *ngFor="let product of productsList">
+    <div>
+      <button class="cross" (click)="removeProduct(product)">✖</button>
+      <div class="image">
+        <img [src]="product.image" />
+      </div>
+      <p>
+        <a [href]="product.url" target="_blank">{{ product.name }}</a>
+      </p>
+      <div class="low">
+        <p>
+          Цена: <br />
+          {{ product.price }}
+        </p>
+        <span
+          (click)="toggleHeart(product)"
+          class="heart"
+          [ngClass]="{
+            'heart-filled': product.like,
+            'heart-empty': !product.like
+          }"
+          >&#10084;</span>
+        <p>{{ product.likes }}</p>
+      </div>
+    </div>
+  </div>
+</div>

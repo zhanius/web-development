@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>My store</h1>
+  <div class="dropdown">
+    Все категории
+    <div class="dropdown-content">
+      <div *ngFor="let category of categories">
+        <a (click)="setCategory(category.name)">
+          {{ category.name }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

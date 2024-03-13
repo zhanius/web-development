@@ -1,0 +1,7 @@
+<button routerLink="../" id="comeback">come back</button>
+<br> <br>
+
+<div *ngFor="let photo of photos" id="photos">
+  <p>{{ photo.title }}</p>
+  <img src="{{ photo.thumbnailUrl }}" />
+</div>

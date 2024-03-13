@@ -1,0 +1,16 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#comeback{
+    border-radius: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(204, 196, 255);
+}
+
+#photos{
+    margin-left: 40px;
+}
+

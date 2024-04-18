@@ -1,0 +1,10 @@
+  div {
+      color: white;
+      background-color: rgb(85, 2, 2);
+      border-radius: 20px;
+      font-size: 25px;
+      padding: 10px 30px; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+  }
